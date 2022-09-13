@@ -23,7 +23,7 @@ public class FunctionUtil {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		return sdf.format(date);
 	}
-	
+
 	public static String getFechaString(Date date) {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 		return sdf.format(date);
