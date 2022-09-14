@@ -32,11 +32,11 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:padding="5dp"
-                android:text="Nombre"
+                android:text="Razón Social"
                 android:textAlignment="center" />
 
             <EditText
-                android:id="@+id/txtRegEdiNombre"
+                android:id="@+id/txtRegEdiRazonSocial"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -61,17 +61,19 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:padding="5dp"
-                android:text="País" />
+                android:text="RUC" />
 
-            <Spinner
-                android:id="@+id/spnRegEdiPais"
+            <EditText
+                android:id="@+id/txtRegEdiRuc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:padding="5dp"
-                android:minHeight="48dp"
-                android:entries="@array/txtPais"
-                />
+                android:padding="5dp" />
+
+
+
+
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -86,6 +88,24 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:padding="5dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="País" />
+
+            <Spinner
+                android:id="@+id/spnRegEdiPais"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:minHeight="48dp"
+                android:entries="@array/txtPais"
+                />
 
             <Button
                 android:id="@+id/btnRegEdiEnviar"
